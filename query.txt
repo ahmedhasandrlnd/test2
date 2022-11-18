@@ -1,0 +1,49 @@
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('Gourmet Hamburger Bun', 1, 260,'For those serious about grilling, our Gourmet Hamburger Buns are richer and
+more full-flavoured than your average bun.',1,1)
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('Mini Cinnamon Bun', 8.25, 180, 'A mini version of our classic cinnamon buns, these sticky spirals are made
+with real butter and deliver the gooey cinnamon taste',2,1)
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('White Dinner Roll',0.55, 70, 'Their small size and soft crust makes our White Dinner Roll the ideal accompaniment
+to any meal.',1,1)
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('Whole Wheat Round Bun',0.75, 150,'Made with 100% whole grain flour and high in fibre, the Whole Wheat round bun is
+a health-friendly classic.',1,1)
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('Turkish Bread Italian Herb',5.20,250,'A traditional, rustic loaf with a golden exterior and light, airy texture. Topped with Italian herbs.',3,2)
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('Pizza Mini Hawaiian',6.55,	430,'A classic tropical mini pizza made with tomato sauce, ham, pineapple and topped with aged white cheddar. Warm up at home and enjoy!',2,5)
+INSERT INTO Player (Name, Price, Calory, Description,Level,PositionId)
+VALUES ('Croissant Chocolate',4.25,250,'Layers of buttery, flaky pastry wrapped around a rich, soft chocolate centre that melts in your mouth.',1,4)
+	
+
+	
+
+
+
+SELECT * from Player
+
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Bun and Roll', 1)
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Flatbread', 2)
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Loaf', 3)
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Pastry', 4)
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Mini Pizza', 5)
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Scone', 6)
+INSERT INTO Position (Name, DisplayOrder)
+VALUES ('Twist', 7)
+
+
+
+
+
+
+
+SELECT *  from Position
+
